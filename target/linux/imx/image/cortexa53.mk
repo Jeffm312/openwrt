@@ -51,7 +51,7 @@ endef
 
 define Device/gateworks_venice
   $(call Device/Default)
-  DEVICE_VENDOR := Gateworks
+  DEVICE_VENDOR := Frame Engine
   DEVICE_MODEL := Venice
   BOOT_SCRIPT := gateworks_venice
   PARTITION_OFFSET := 16M
